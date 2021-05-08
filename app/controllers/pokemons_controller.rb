@@ -3,7 +3,9 @@ class PokemonsController < ApplicationController
     abilities_list = get_poke_info_for("https://pokeapi.co/api/v2/pokemon/#{params[:pokemon]}")["abilities"].sort_by { |ability| ability["ability"]["name"] }
 
     abilities_hash = {}
-    abilities_list.map do |ability|
+    abilities_list.each do |ability|
+      Ability.find_or_initialize_by pokemon:
+
       ability_name = ability["ability"]["name"]
       effect_info = get_poke_info_for(ability["ability"]["url"])
       effect_info_en = effect_info["effect_entries"].detect { |effect| effect["language"]["name"] == "en" }

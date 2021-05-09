@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1849d104-ed5f-43dd-91bf-9f197e40a279" name="Default Changelist" comment="added pokemon controller and integration test">
-      <change beforePath="$PROJECT_DIR$/app/controllers/pokemons_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pokemons_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/PokeApi.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Pokemon/updatable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Pokemon/updatable.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +150,7 @@
       <workItem from="1620480311543" duration="637000" />
       <workItem from="1620481132673" duration="105000" />
       <workItem from="1620481239815" duration="3294000" />
-      <workItem from="1620569627458" duration="4476000" />
+      <workItem from="1620569627458" duration="4889000" />
     </task>
     <task id="LOCAL-00001" summary="added pokemon controller and integration test">
       <created>1620411503850</created>

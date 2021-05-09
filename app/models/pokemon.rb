@@ -1,9 +1,7 @@
 class Pokemon < ApplicationRecord
-  validates :name, presence: true
+  include Updatable, Presentable
 
   has_many :abilities
 
-  def sorted_abilities
-    abilities.sort_by(&:name)
-  end
+  validates :name, presence: true
 end

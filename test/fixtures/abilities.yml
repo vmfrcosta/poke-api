@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  description: MyString
-  pokemon: one
+imposter:
+  name: "imposter"
+  description: "This Pokémon transforms into a random opponent upon entering battle.  This effect is identical to the move transform."
+  pokemon: ditto
 
-two:
-  name: MyString
-  description: MyString
-  pokemon: two
+limber:
+  name: "limber"
+  description: "This Pokémon cannot be paralyzed.\n\nIf a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle."
+  pokemon: ditto

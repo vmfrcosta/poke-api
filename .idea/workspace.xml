@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1849d104-ed5f-43dd-91bf-9f197e40a279" name="Default Changelist" comment="added pokemon controller and integration test">
-      <change afterPath="$PROJECT_DIR$/app/services/PokeApi.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Pokemon/updatable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Pokemon/updatable.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/ability/updatable.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/pokemon_api.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Pokemon/presentable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/pokemon/presentable.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Pokemon/updatable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/pokemon/updatable.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ability.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ability.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/PokeApi.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/models/pokemon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/models/ability" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\vmfrcosta\RubymineProjects\poke-api\app\models\ability" />
       <recent name="\\wsl$\Ubuntu\home\vmfrcosta\RubymineProjects\poke-api\test\models\pokemon" />
       <recent name="\\wsl$\Ubuntu\home\vmfrcosta\RubymineProjects\poke-api\app\models\Pokemon" />
       <recent name="\\wsl$\Ubuntu\home\vmfrcosta\RubymineProjects\poke-api\test\integration" />
@@ -150,7 +156,7 @@
       <workItem from="1620480311543" duration="637000" />
       <workItem from="1620481132673" duration="105000" />
       <workItem from="1620481239815" duration="3294000" />
-      <workItem from="1620569627458" duration="4889000" />
+      <workItem from="1620569627458" duration="6024000" />
     </task>
     <task id="LOCAL-00001" summary="added pokemon controller and integration test">
       <created>1620411503850</created>

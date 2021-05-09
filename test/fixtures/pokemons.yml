@@ -2,3 +2,5 @@
 
 ditto:
   name: "ditto"
+  updated_at: <%= Time.now - 5.minutes %>
+  created_at: <%= Time.now - 5.minutes %>

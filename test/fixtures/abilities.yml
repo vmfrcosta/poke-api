@@ -3,9 +3,11 @@
 imposter:
   name: "imposter"
   description: "This Pokémon transforms into a random opponent upon entering battle.  This effect is identical to the move transform."
+  source: "https://pokeapi.co/api/v2/ability/150/"
   pokemon: ditto
 
 limber:
   name: "limber"
   description: "This Pokémon cannot be paralyzed.\n\nIf a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle."
+  source: "https://pokeapi.co/api/v2/ability/7/"
   pokemon: ditto

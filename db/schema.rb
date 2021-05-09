@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_05_09_153630) do
     t.bigint "pokemon_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "url"
+    t.string "source"
     t.index ["pokemon_id"], name: "index_abilities_on_pokemon_id"
   end
 

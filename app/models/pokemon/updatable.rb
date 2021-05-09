@@ -12,7 +12,7 @@ module Pokemon::Updatable
     abilities_list.each do |ability_info|
       ability_name = ability_info["name"]
       ability = abilities.find_or_initialize_by name: ability_name
-      ability.url = ability_info["url"]
+      ability.source = ability_info["url"]
       ability.set_description
       ability.save
     end

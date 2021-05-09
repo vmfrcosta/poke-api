@@ -4,7 +4,7 @@ module Pokemon::Updatable
   extend ActiveSupport::Concern
 
   def needs_update?
-    updated_at < Date.today - 365.days
+    updated_at < Date.today - 365.days || created_at > Time.now - 1.second
   end
 
   def update_abilities
